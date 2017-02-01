@@ -1,0 +1,14 @@
+[package]
+authors = ["Aaron Trent <novacrazy@gmail.com>"]
+build = "build.rs"
+description = "LuaJIT Bindings"
+links = "luajit"
+name = "luajit-sys"
+readme = "README.md"
+version = "2.1.0-beta2"
+
+[build-dependencies]
+
+[lib]
+name = "luajit_sys"
+path = "lib.rs"
